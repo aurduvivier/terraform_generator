@@ -82,9 +82,9 @@ def resolve(directory, tfvars_files):
     logger.info('Aggregating {} to a central tfvars dictionnary.'.format(file))
     tfvars.update(tfvars_to_dictionnary(file))
   logger.debug('Aggregated tfvars : {}'.format(tfvars))
-  generate_render_files(j2_files, tfvars)
+  rendering = generate_render_files(j2_files, tfvars)
   logger.info('Resolve completed.')
-  return(generate_render_files(j2_files, tfvars))
+  return(rendering)
 
 def get_args():
   """
