@@ -18,7 +18,7 @@ setup(
     name='terraform_generator',
     version='0.1.0',
     description='Load tf.j2 templates and tfvars files to generate Terraform code.',
-    author='Devops Renault Digital',
+    author='aurelienduvivier@rocketmail.com',
     install_requires=get_requirements(),
     packages=find_packages(exclude=['tests', 'tests.*', '*.test.*']),
     entry_points={

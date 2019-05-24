@@ -1,3 +1,2 @@
-jinja2==2.10
+jinja2
 pyhcl==0.3.12
-setuptools==40.8.0
