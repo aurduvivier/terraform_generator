@@ -1,0 +1,3 @@
+build/
+dist/
+terraform_generator.egg-info/
